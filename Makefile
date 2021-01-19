@@ -2,7 +2,7 @@ CC=gcc
 FLAG=-Wall
 AR=ar
 all: main 
-main: freq.c
+main: frequency.c
 	$(CC) $(FLAG) freq.c -g -o frequency
 .PHONY:  frequency clean all
 clean:
